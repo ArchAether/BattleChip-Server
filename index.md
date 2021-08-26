@@ -2,7 +2,7 @@
 A back-end app built in Spring Boot that allows users to lok up information about Capcom's Mega Man Battle Network library of 'Battle Chips'
 
 # BattleChip Class
-
+---
 ## Description
 
 A representation of the battle chip table in a SQL database
@@ -31,3 +31,6 @@ A representation of the battle chip table in a SQL database
 | public String | toString() | Overrides the toString() method. Returns a JSON-friendly string of the object |
 
 
+# Links
+---
+[Back to the Home Page](https://archaether.github.io/)
