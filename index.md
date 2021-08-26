@@ -1,7 +1,7 @@
 ## Summary
 A back-end app built in Spring Boot that allows users to lok up information about Capcom's Mega Man Battle Network library of 'Battle Chips'
 
-#BattleChip Class
+# BattleChip Class
 
 ## Description
 
@@ -22,11 +22,12 @@ A representation of the battle chip table in a SQL database
 | String | image | A string containing the URL for the chip's image |
 
 ### Methods:
+
 | Modifiers and Type | Method Name | Description |
 | --- | --- | --- |
-| `public` `BattleChip` | BattleChip(`String name`, `String description`, `String element`, `String chipClass`, `int damage`, `String[] chipCode`, `int megabytes`, `String image)` | Custom constructor for the Battle Chip class|
-| `public` `boolean` | equals(`Object o`) | returns true if the object o has the same values |
-| `public` `int` | hashCode() | Returns a hash code of the object |
-| `public` `String` | toString() | Overrides the toString() method. Returns a JSON-friendly string of the object |
+| public BattleChip | BattleChip(String name, String description, String element, String chipClass, int damage, String[] chipCode, int megabytes, String image) | Custom constructor for the Battle Chip class|
+| public boolean | equals(Object o) | returns true if the object o has the same values |
+| public int | hashCode() | Returns a hash code of the object |
+| public String | toString() | Overrides the toString() method. Returns a JSON-friendly string of the object |
 
 
